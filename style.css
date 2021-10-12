@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  .cudalogo {
+    margin-left: 13.125rem;
+    margin-top: 3.5rem;
+  }
+  
+  .navbar { 
+    margin-top: 3.0625rem;
+    margin-right: 11.25rem;
+    float: right;
+  }
+
+  .btn-secondary {
+    background-color: transparent;
+    color: #ffffff;
+    border-color: transparent;
+  }
+
+  .btn-secondary:hover {
+    color: #ffffff;
+    background-color: #643a79!important;
+    border-color: #643a79!important;
+    box-shadow: none!important;
+}
+
+  .welcome_message {
+    font-family: 'Titillium Web', sans-serif;
+    color: #ffffff;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    justify-content: space-evenly; 
+    align-items: space-evenly;
+  }
+  
+  .btn-primary {
+    min-width: 18.3125rem;
+    min-height: 4.375rem;
+    background-color: #eb7d4b;
+    border-color: transparent;
+}
+
+  .btn-primary:hover {
+    background-color: #eb7d4b!important;
+    border-color: transparent!important;
+    box-shadow: inset 0rem -0.1875rem #c55725!important;
+}
+
+  .work_with_us {
+    align-items: center;
+    text-align: center;
+  }
+
+  .welcome_background {
+    background-color: #87509c;
+    height: 37.25rem;
+  }
+  
+  .servicesbackground {
+    background-color: #17c2a4;
+    height: 46.6875rem;
+  }
+  
+  .teambackground {
+    background-color: #e7f1f8;
+    height: 14.8%;
+  }
+  
+  .skillsbackground {
+    background-color: #ffffff;
+    height: 10.6%;
+  }
+  
+  .portfoliobackground {
+    background-color: #ffdd99;
+    height: 23.1%;
+  }
+  
+  .testimonialsbackground {
+    background-color: #d74680;
+    height: 14.5%;
+  }
+  
+  .getintouchbackground {
+    background-color: #3c5499;
+    height: 13.3%;
+  }
+  
+  .footerbackground {
+    background-color: #344b8e;
+    height: 1.8%;
+  }
+  
