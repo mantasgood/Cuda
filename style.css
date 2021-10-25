@@ -75,33 +75,33 @@ header {
   font-family: TittiliumWeb-Bold;
 }
   
-  .btn-primary {
-    margin-top: -6rem;
-    min-width: 18.3125rem;
-    min-height: 4.375rem;
-    background-color: #eb7d4b;
-    border-color: transparent;
+.btn-primary {
+  margin-top: -6rem;
+  min-width: 18.3125rem;
+  min-height: 4.375rem;
+  background-color: #eb7d4b;
+  border-color: transparent;
 }
 
-  .btn-primary:hover {
-    background-color: #eb7d4b!important;
-    border-color: transparent!important;
-    box-shadow: inset 0rem -0.1875rem #c55725!important;
+.btn-primary:hover {
+  background-color: #eb7d4b!important;
+  border-color: transparent!important;
+  box-shadow: inset 0rem -0.1875rem #c55725!important;
 }
 
-  .work_with_us {
-    width: 100%;
-    text-align: center;
-    font-family: TittiliumWeb-SemiBold;
-  }
+.work_with_us {
+  width: 100%;
+  text-align: center;
+  font-family: TittiliumWeb-SemiBold;
+}
 
-  .top_message, .qoute_author {
-      font-family: TittiliumWeb-Bold;
-  }
+.top_message, .qoute_author {
+  font-family: TittiliumWeb-Bold;
+}
 
-  .under_message, .jobtitle, .computer_description, {
-    font-family: TittiliumWeb-Regular;
-  }
+.under_message, .jobtitle, .computer_description, {
+  font-family: TittiliumWeb-Regular;
+}
 
 ::-webkit-input-placeholder {
   font-family: TittiliumWeb-Regular;
@@ -123,120 +123,121 @@ header {
   font-family: TittiliumWeb-Regular;
 }
 
-  .qoute {
-    font-family: TittiliumWeb-Italic;
-  }
+.qoute {
+  font-family: TittiliumWeb-Italic;
+}
 
-  .top_message_services {
-    margin-top: 7.5rem;
-    color: #ffffff;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    padding-left: 26.5rem;
-    padding-right: 26.5rem;
-  }
+.top_message_services {
+  margin-top: 7.5rem;
+  color: #ffffff;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding-left: 26.5rem;
+  padding-right: 26.5rem;
+}
 
-  .servicecols {
-    margin-top: 7rem;
-  }
+.servicecols {
+  margin-top: 7rem;
+}
 
-  .servicecol {
-    margin-top: -8rem;
-    width: 100vw;
-    color: #ffffff;
-    text-align: center;
-    align-items: center;
-  }
 
-  .description {
-    font-family: TittiliumWeb-Light;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
+.servicecol {
+  margin-top: -8rem;
+  width: 100vw;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+}
 
-  .top_message_team {
-    margin-top: 7.5rem;
-    color: #3c4761;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    margin-inline: 1rem;
-  }
+.description {
+  font-family: TittiliumWeb-Light;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.top_message_team {
+  margin-top: 7.5rem;
+  color: #3c4761;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  margin-inline: 1rem;
+}
   
-  .teamcol {
-    width: 100vw;
-    color: #3c4761;
-    text-align: center;
-    align-items: center;
-  }
+.teamcol {
+  width: 100vw;
+  color: #3c4761;
+  text-align: center;
+  align-items: center;
+}
 
-  .team_text {
-    margin-top: -2rem;
-  }
+.team_text {
+  margin-top: -2rem;
+}
 
-  .team_logo {
-    margin-top: -4rem;
-  }
+.team_logo {
+  margin-top: -4rem;
+}
 
-  .jobtitle {
-    color: #30bae7;
-  }
+.jobtitle {
+  color: #30bae7;
+}
 
-  .top_message_skills {
-    margin-top: 7.5rem;
-    color: #3c4761;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    padding-left: 27rem;
-    padding-right: 27rem;
-  }
+.top_message_skills {
+  margin-top: 7.5rem;
+  color: #3c4761;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding-left: 27rem;
+  padding-right: 27rem;
+}
   
-  .skillscol {
-    width: 100vw;
-    color: #3c4761;
-    text-align: center;
-    align-items: center;
-    margin-top: -5rem;
-  }
+.skillscol {
+  width: 100vw;
+  color: #3c4761;
+  text-align: center;
+  align-items: center;
+  margin-top: -5rem;
+}
 
   .skills_text {
-    margin-top: -5rem;
-  }
+  margin-top: -5rem;
+}
 
   .top_message_portfolio {
-    margin-top: 8rem;
-    color: #393939;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    padding-left: 27rem;
-    padding-right: 27rem;
-  }
+  margin-top: 8rem;
+  color: #393939;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  padding-left: 27rem;
+  padding-right: 27rem;
+}
 
   .navbar_portfolio { 
-    width: 100%;
-    align-items: center;
-    text-align: center;
-    margin-top: -3rem;
-    font-family: TittiliumWeb-Regular;
-  }
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  margin-top: -3rem;
+  font-family: TittiliumWeb-Regular;
+}
 
 
   .btn-success {
-    background-color: #ebc985;
-    color: #393939;
-    border-color: transparent;
-    width: 5rem;
-  }
+  background-color: #ebc985;
+  color: #393939;
+  border-color: transparent;
+  width: 5rem;
+}
 
   .btn-success:hover {
-    color: #393939;
-    background-color: #ffffff!important;
-    border-color: #ffffff!important;
-    box-shadow: none!important;
-  }
+  color: #393939;
+  background-color: #ffffff!important;
+  border-color: #ffffff!important;
+  box-shadow: none!important;
+}
 
   .computer_row {
     margin-bottom: -4rem;
@@ -494,7 +495,7 @@ header {
     }
 
     h4, .description {
-      font-size: 80%;
+      font-size: 99%;
     }
 
     .testimonialscol {
@@ -543,11 +544,14 @@ header {
 
     .servicecols {
       margin-top: -3rem;
+      margin-top: 2rem;
+      display: flex;
     }
+
 
     .service_logo {
       width: 70%;
-      margin-bottom: -10rem;
+      margin-bottom: 0.1rem;
     }
 
     .top_message_skills {
@@ -583,18 +587,18 @@ header {
     }
 
     .top_message_services {
-      padding-left: 0rem;
-      padding-right: 0rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
 
     .top_message_skills {
-      padding-left: 0rem;
-      padding-right: 0rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
     }
 
     .top_message_portfolio {
-      padding-left: 0rem;
-      padding-right: 0rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
       }
 
       .getintouchbackground {
@@ -607,6 +611,10 @@ header {
         padding-right: 0rem;
       }
 
+      .service_logo {
+        margin-top: 4rem;
+      }
+
       .percentage {
         width: none;
       }
@@ -616,7 +624,7 @@ header {
       }
 
       h4, .jobtitle, .description {
-        font-size: 50%;
+        font-size: 60%;
       }
 
       .testimonialscol {
@@ -644,10 +652,20 @@ header {
       font-size: 80%;
     }
 
+  }
+
   @media (max-width: 480px) {
 
     .getintouchbackground {
-      padding-left: 0rem;
-      padding-right: 0rem;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+    .btn-secondary {
+
+    }
+
+    .btn-success {
+      width: 4rem;
     }
   }
