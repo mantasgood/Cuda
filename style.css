@@ -1,52 +1,82 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    height: 100vh;
-  }
+@font-face {
+  font-family: TittiliumWeb-Regular;
+  src: url(./titillium_web_font/TitilliumWeb-Regular.ttf);
+}
 
-  header {
-    width: 100%;
-  }
+@font-face {
+  font-family: TittiliumWeb-Bold;
+  src: url(./titillium_web_font/TitilliumWeb-Bold.ttf);
+}
 
-  .cudalogo {
+@font-face {
+  font-family: TittiliumWeb-SemiBold;
+  src: url(./titillium_web_font/TitilliumWeb-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: TittiliumWeb-Light;
+  src: url(./titillium_web_font/TitilliumWeb-Light.ttf);
+}
+
+@font-face {
+  font-family: TittiliumWeb-Italic;
+  src: url(./titillium_web_font/TitilliumWeb-Italic.ttf);
+}
+
+h4 {
+  font-family: TittiliumWeb-Bold;
+}
+
+
+
+html,body
+{
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden; 
+}
+
+header {
+  width: 100%;
+}
+
+.cudalogo {
     margin-left: 13.125rem;
     margin-top: 3.5rem;
   }
   
-  .navbar { 
-    margin-top: 3.0625rem;
-    margin-right: 11.25rem;
-    float: right;
-  }
-
-  .btn-secondary {
-    background-color: transparent;
-    color: #ffffff;
-    border-color: transparent;
-  }
-
-  .btn-secondary:hover {
-    color: #ffffff;
-    background-color: #643a79!important;
-    border-color: #643a79!important;
-    box-shadow: none!important;
+.navbar { 
+  margin-top: 3.0625rem;
+  margin-right: 11.25rem;
+  float: right;
+  font-family: TittiliumWeb-Regular;
 }
 
-  .welcome_message {
-    font-family: 'Titillium Web', sans-serif;
-    color: #ffffff;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    justify-content: space-evenly; 
-    align-items: space-evenly;
-  }
+.btn-secondary {
+  background-color: transparent;
+  color: #ffffff;
+  border-color: transparent;
+}
+
+.btn-secondary:hover {
+  color: #ffffff;
+  background-color: #643a79!important;
+  border-color: #643a79!important;
+  box-shadow: none!important;
+}
+
+.welcome_message {
+  padding-left: 18rem;
+  padding-right: 18rem;
+  color: #ffffff;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  font-family: TittiliumWeb-Bold;
+}
   
   .btn-primary {
+    margin-top: -6rem;
     min-width: 18.3125rem;
     min-height: 4.375rem;
     background-color: #eb7d4b;
@@ -60,8 +90,273 @@
 }
 
   .work_with_us {
+    width: 100%;
+    text-align: center;
+    font-family: TittiliumWeb-SemiBold;
+  }
+
+  .top_message, .qoute_author {
+      font-family: TittiliumWeb-Bold;
+  }
+
+  .under_message, .jobtitle, .computer_description, {
+    font-family: TittiliumWeb-Regular;
+  }
+
+::-webkit-input-placeholder {
+  font-family: TittiliumWeb-Regular;
+}
+
+::-webkit-input-placeholder:after  {
+  font-family: TittiliumWeb-Regular;
+}
+
+:-moz-placeholder {
+  font-family: TittiliumWeb-Regular;
+}
+
+::-moz-placeholder {
+  font-family: TittiliumWeb-Regular;
+}
+
+:-ms-input-placeholder {  
+  font-family: TittiliumWeb-Regular;
+}
+
+  .qoute {
+    font-family: TittiliumWeb-Italic;
+  }
+
+  .top_message_services {
+    margin-top: 7.5rem;
+    color: #ffffff;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding-left: 26.5rem;
+    padding-right: 26.5rem;
+  }
+
+  .servicecols {
+    margin-top: 7rem;
+  }
+
+  .servicecol {
+    margin-top: -8rem;
+    width: 100vw;
+    color: #ffffff;
+    text-align: center;
+    align-items: center;
+  }
+
+  .description {
+    font-family: TittiliumWeb-Light;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .top_message_team {
+    margin-top: 7.5rem;
+    color: #3c4761;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-inline: 1rem;
+  }
+  
+  .teamcol {
+    width: 100vw;
+    color: #3c4761;
+    text-align: center;
+    align-items: center;
+  }
+
+  .team_text {
+    margin-top: -2rem;
+  }
+
+  .team_logo {
+    margin-top: -4rem;
+  }
+
+  .jobtitle {
+    color: #30bae7;
+  }
+
+  .top_message_skills {
+    margin-top: 7.5rem;
+    color: #3c4761;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding-left: 27rem;
+    padding-right: 27rem;
+  }
+  
+  .skillscol {
+    width: 100vw;
+    color: #3c4761;
+    text-align: center;
+    align-items: center;
+    margin-top: -5rem;
+  }
+
+  .skills_text {
+    margin-top: -5rem;
+  }
+
+  .top_message_portfolio {
+    margin-top: 8rem;
+    color: #393939;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding-left: 27rem;
+    padding-right: 27rem;
+  }
+
+  .navbar_portfolio { 
+    width: 100%;
     align-items: center;
     text-align: center;
+    margin-top: -3rem;
+    font-family: TittiliumWeb-Regular;
+  }
+
+
+  .btn-success {
+    background-color: #ebc985;
+    color: #393939;
+    border-color: transparent;
+    width: 5rem;
+  }
+
+  .btn-success:hover {
+    color: #393939;
+    background-color: #ffffff!important;
+    border-color: #ffffff!important;
+    box-shadow: none!important;
+  }
+
+  .computer_row {
+    margin-bottom: -4rem;
+  }
+
+  .portfoliocol {
+    width: 100vw;
+    color: #3c4761;
+    text-align: center;
+    align-items: center;
+  }
+
+  .btn-info {
+    min-width: 18.3125rem;
+    min-height: 4.375rem;
+    background-color: #17c2a4;
+    border-color: transparent;
+}
+
+  .btn-info:hover {
+    background-color: #17c2a4!important;
+    border-color: transparent!important;
+    box-shadow: inset 0rem -0.1875rem #14a58c!important;
+}
+
+  .load_more_projects {
+    width: 100%;
+    text-align: center;
+    font-family: TittiliumWeb-SemiBold;
+  }
+
+  .top_message_testimonials {
+    margin-top: 7.5rem;
+    color: #ffffff;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-inline: 1rem;
+    margin-bottom: -6rem;
+  }
+
+  .testimonialscol {
+    width: 100vw;
+    color: #ffffff;
+    margin-left: -9rem;
+    padding-right: 5.5rem;
+  }
+
+  .testimonialsmug {
+    float: right;
+    margin-right: 8rem;
+  }
+
+  .testimonialscoll {
+    width: 100vw;
+    color: #ffffff;
+    margin-left: 2rem;
+    padding-right: 6rem;
+  }
+
+  .testimonialsmugl {
+    float: right;
+    margin-right: 0rem;
+  }
+
+  .jobtitletestimonials {
+    color: #ffdd99;
+    font-family: TittiliumWeb-Regular;
+  }
+
+  .top_message_getintouch {
+    margin-top: 7.5rem;
+    color: #ffffff;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-inline: 1rem;
+    margin-bottom: -8rem;
+  }
+  
+  .btn-dark {
+    min-width: 18.3125rem;
+    min-height: 4.375rem;
+    background-color: #30bae7;
+    border-color: transparent;
+}
+
+  .btn-dark:hover {
+    background-color: #30bae7!important;
+    border-color: transparent!important;
+    box-shadow: inset 0rem -0.1875rem #299ec5!important;
+}
+
+  .send_message {
+    width: 100%;
+    text-align: center;
+    font-family: TittiliumWeb-SemiBold;
+  }
+
+  .form-control {
+    background-color:#273a71;
+    color: #FFFFFF;
+    border-color: transparent;
+    margin-bottom: 1rem;
+  }
+
+  .form-control::placeholder {
+    color: #ffffff;
+  }
+
+  .twitter:link, .twitter:visited, .twitter:hover, .twitter:active {
+    text-decoration: none;
+    color: #30bae7;
+    font-family: TittiliumWeb-SemiBold;
+  }
+
+  .white, .white:visited, .white:hover, .white:active  {
+    color:#ffffff;
+    text-decoration: none;
+    font-family: TittiliumWeb-SemiBold;
   }
 
   .welcome_background {
@@ -76,31 +371,283 @@
   
   .teambackground {
     background-color: #e7f1f8;
-    height: 14.8%;
+    height: 57.1875rem;
   }
   
   .skillsbackground {
     background-color: #ffffff;
-    height: 10.6%;
+    height: 40.9375rem;
   }
   
   .portfoliobackground {
     background-color: #ffdd99;
-    height: 23.1%;
+    height: 88.9375rem;
   }
   
   .testimonialsbackground {
     background-color: #d74680;
-    height: 14.5%;
+    height: 55.9375rem;
   }
   
   .getintouchbackground {
     background-color: #3c5499;
-    height: 13.3%;
+    height: 51.1875rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
   }
   
   .footerbackground {
     background-color: #344b8e;
-    height: 1.8%;
+    height: 7rem;
+    text-align: center;
+    align-items: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
   }
   
+  @media (max-width: 1300px) {
+    .laptoppic {
+      width: 90%;
+    }
+
+  }
+  
+  @media (max-width: 1200px) {
+    .mug {
+      width: 90%;
+    }
+
+    .skills_text {
+      margin-top: -4rem;
+    }
+
+    .percentage {
+      width: 95%;
+    }
+
+    .top_message_skills {
+      padding-left: 15rem;
+      padding-right: 15rem;
+    }
+
+    .top_message_portfolio {
+    padding-left: 15rem;
+    padding-right: 15rem;
+    }
+  }
+
+  @media (max-width: 1100px) {
+    .top_message_services {
+      margin-top: 5rem;
+    }
+
+    .top_message_services {
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+    
+    .getintouchbackground {
+
+      padding-left: 15rem;
+      padding-right: 15rem;
+    }
+
+  }
+    
+  @media (max-width: 1000px) {
+    .top_message_testimonials {
+      margin-bottom: -3rem;
+    }
+
+    .cudalogo {
+      margin: 0 auto;
+      text-align: center;
+      margin-left: 0rem;
+      margin-top: 3.5rem;
+      margin-bottom: 1rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .navbar { 
+      margin-top: 0rem;
+      margin-right: 0rem;
+      padding-right: 10rem;
+      padding-left: 10rem;
+      float: none;
+      align-items: center;
+      text-align: center;
+    }
+
+    .welcome_message {
+      padding-left: 10rem;
+      padding-right: 10rem;
+      margin-top: -3rem;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .service_logo {
+      width: 70%;
+      margin-bottom: -10rem;
+    }
+
+    h4, .description {
+      font-size: 80%;
+    }
+
+    .testimonialscol {
+    width: 100vw;
+    color: #ffffff;
+    margin-left: -3rem;
+    padding-right: 0rem;
+  }
+
+  .testimonialsmug {
+    float: right;
+    margin-right: 3rem;
+    width: 80%;
+  }
+
+  .testimonialscoll {
+    width: 100vw;
+    color: #ffffff;
+    margin-left: 0rem;
+    padding-right: 1rem;
+  }
+
+  .testimonialsmugl {
+    float: right;
+    margin-right: 0rem;
+    width: 80%;
+  }
+
+  .top_message_testimonials {
+    margin-bottom: 0rem;
+  }
+  }
+
+
+  @media (max-width: 800px) {
+    .welcome_message {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      margin-top: -3rem;
+    }
+
+    .navbar { 
+      padding-right: 5rem;
+      padding-left: 5rem;
+    }
+
+    .servicecols {
+      margin-top: -3rem;
+    }
+
+    .service_logo {
+      width: 70%;
+      margin-bottom: -10rem;
+    }
+
+    .top_message_skills {
+      padding-left: 10rem;
+      padding-right: 10rem;
+    }
+
+    .top_message_portfolio {
+      padding-left: 10rem;
+      padding-right: 10rem;
+      }
+
+      .getintouchbackground {
+        padding-left: 10rem;
+        padding-right: 10rem;
+      }
+
+      .footerbackground {
+        padding-left: 5rem;
+        padding-right: 5rem;
+      }
+  }
+
+  @media (max-width: 700px) {
+    .navbar { 
+      padding-right: 0rem;
+      padding-left: 0rem;
+      font-size: 99%;
+    }
+
+    .home_hi {
+      font-size: 99%;
+    }
+
+    .top_message_services {
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+
+    .top_message_skills {
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+
+    .top_message_portfolio {
+      padding-left: 0rem;
+      padding-right: 0rem;
+      }
+
+      .getintouchbackground {
+        padding-left: 4rem;
+        padding-right: 4rem;
+      }
+
+      .footerbackground {
+        padding-left: 0rem;
+        padding-right: 0rem;
+      }
+
+      .percentage {
+        width: none;
+      }
+
+      .skills_text {
+        margin-top: -8rem;
+      }
+
+      h4, .jobtitle, .description {
+        font-size: 50%;
+      }
+
+      .testimonialscol {
+        margin-left: 0rem;
+        padding-right: 0rem;
+      }
+    
+      .testimonialsmug {
+        margin-right: 0rem;
+      }
+    
+      .testimonialscoll {
+        margin-left: 0rem;
+        padding-right: 0rem;
+      }
+    
+      .testimonialsmugl {
+        float: right;
+        margin-right: 0rem;
+      }
+  }
+
+  @media (max-width: 500px) {
+    .qoute, .qoute_author, .jobtitletestimonials {
+      font-size: 80%;
+    }
+
+  @media (max-width: 480px) {
+
+    .getintouchbackground {
+      padding-left: 0rem;
+      padding-right: 0rem;
+    }
+  }
